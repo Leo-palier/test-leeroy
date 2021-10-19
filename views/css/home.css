@@ -1,0 +1,72 @@
+/*---------------------------------------------------------*/
+/*----------------------GENERAL----------------------------*/
+/*---------------------------------------------------------*/
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+}
+
+.home {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    border: 1px solid white;
+    font-size: 60px;
+    width: 600px;
+    margin-left: 134px;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+/*---------------------------------------------------------*/
+/*--------------------------HEADER-------------------------*/
+/*---------------------------------------------------------*/
+
+header {
+    background: url("../img/image-hero.jpg");
+    color: hsl(0, 0%, 100%);
+    height: 650px;
+}
+
+/*---------------------------------------------------------*/
+/*----------------------RESPONSIVE-------------------------*/
+/*---------------------------------------------------------*/
+
+@media screen and (max-width: 375px) {
+
+    body{
+        max-width: 100%;
+    }
+
+    header {
+        background: url("../img/image-hero.jpg");
+        color: hsl(0, 0%, 100%);
+        height: 650px;
+        width: 355px;
+        background-position: center;
+    }
+
+    h2 {
+        border: 1px solid white;
+        font-size: 40px;
+        width: 280px;
+        margin: 15px auto;
+        padding: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+}

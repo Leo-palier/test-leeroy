@@ -1,0 +1,67 @@
+/*---------------------------------------------------------*/
+/*-----------------------SECTION 1-------------------------*/
+/*---------------------------------------------------------*/
+
+.leader {
+    margin-bottom: 120px;
+    margin-top: 100px;
+}
+
+.leader p {
+    color: hsl(0, 0%, 41%);
+}
+
+.leader-text {
+    background-color: white;
+    position:absolute;
+    top:180px;
+    margin-left: 585px;
+    width:555px;
+    height:320px;
+    z-index:2;
+}
+
+.leader-text h3{
+    margin-top: 80px;
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+
+.leader-text h3, p {
+    margin-left: 40px;
+}
+
+/*---------------------------------------------------------*/
+/*----------------------RESPONSIVE-------------------------*/
+/*---------------------------------------------------------*/
+@media screen and (max-width: 375px) {
+    h2 {
+        font-size: 45px;
+        width: 300px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .leader img {
+        background-position: center;
+        width: 375px;
+    }
+
+    .leader-text {
+        position:relative;
+        width: auto;
+        margin-left: 0;
+        top: 275px;
+        z-index:2;
+    }
+
+    .leader-text h3{
+        font-size: 40px;
+    }
+
+    .leader-text h3, p {
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
